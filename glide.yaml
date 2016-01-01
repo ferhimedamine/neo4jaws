@@ -1,0 +1,22 @@
+package: main
+import:
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - /releases/tag/v1.0.7
+- package: github.com/go-cq/cq
+- package: gopkg.in/cq.v1
+- package: github.com/jmcvetta/neoism
+- package: gopkg.in/jmcvetta/neoism.v1
+- package: github.com/jmcvetta/randutil
+- package: github.com/kr/pretty
+- package: github.com/stretchr/testify
+  subpackages:
+  - /assert
+- package: github.com/davecgh/go-spew
+  subpackages:
+  - /spew
+- package: github.com/kr/text
+- package: github.com/pmezard/go-difflib
+  subpackages:
+  - /difflib
+- package: gopkg.in/jmcvetta/napping.v3
